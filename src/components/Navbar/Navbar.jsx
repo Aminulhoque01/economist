@@ -35,7 +35,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   `
                   hover:underline
-                  ${link.highlight ? "text-red-600 font-semibold" : ""}
+                  ${link.highlight ? "" : ""}
                   ${isActive ? "underline text-black" : "text-gray-700"}
                   `
                 }
